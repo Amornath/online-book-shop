@@ -1,0 +1,180 @@
+
+
+
+  <img src="{{asset('front-end/images/bok.jpg')}}" style="height: 400px; width:1600px">
+  <a class="shopbtn" href="{{URL::to('/shop-grid')}}">
+                                    shop now
+      </a>
+
+
+
+
+      		<!-- Start Search Popup -->
+		<div class="box-search-content search_active block-bg close__top">
+			<form id="search_mini_form" class="minisearch" action="#">
+				<div class="field__search">
+					<input type="text" placeholder="Search entire store here...">
+					<div class="action">
+						<a href="#"><i class="zmdi zmdi-search"></i></a>
+					</div>
+				</div>
+			</form>
+			<div class="close__wrap">
+				<span>close</span>
+			</div>
+		</div>
+		<!-- End Search Popup -->
+        <!-- Start Bradcaump area -->
+        <div class="ht__bradcaump__area bg-image--4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bradcaump__inner text-center">
+                        	<h2 class="bradcaump-title">Shop Single</h2>
+                            <nav class="bradcaump-content">
+                              <a class="breadcrumb_item" href="index.html">Home</a>
+                              <span class="brd-separetor">/</span>
+                              <span class="breadcrumb_item active">Shop Single</span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Bradcaump area -->
+
+
+
+
+
+
+
+ 
+ <form method="POST" action="{{url('/news')}}" enctype="multipart/form-data">
+     {{ csrf_field() }}              
+      <!--  Form Input  -->
+            <label>Blog title</label>
+            <input type="" name="">
+            <div>
+            <label>Featured image</label>
+            <input class="input-file uniform_on"  name="fetured_image" type="file">
+            </div>
+            <textarea class="form-control" name="body" id="body" rows="8">
+                 {{ old('body') }}
+            </textarea> 
+            <button type="submit">Hit save</button>         
+</form>
+
+
+
+ <title>Home | BoiGhor</title>
+
+
+
+
+    <!-- Start Slider area -->
+        <div class="slider-area brown__nav slider--15 slide__activation slide__arrow01 owl-carousel owl-theme">
+
+         <!-- Start Single Slide -->
+            <div class="slide animation__style10 bg-image--7 fullscreen align__center--left">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="slider__content">
+                                <div class="contentbox">
+                                    <h2>Buy <span>your </span></h2>
+                                    <h2>favourite <span>Book </span></h2>
+                                    <h2>from <span>Here </span></h2>
+
+                                    <a class="shopbtn" href="#">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Slide -->
+        </div>
+
+         <!--
+                 <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="slider__content">
+                                <div class="contentbox">
+                                    <img src="{{asset('front-end/images/bok.jpg')}}" style="height: 400px; width:1600px">
+                                  
+                                    
+                                    <a class="shopbtn" href="{{URL::to('/shop-grid')}}">
+                                    shop now
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            -->
+
+       
+
+         <!-- Start Single Slide -->
+            <div class="slide animation__style10 bg-image--7 fullscreen align__center--left">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="slider__content">
+                                <div class="contentbox">
+                                    <h2>Buy <span>your </span></h2>
+                                    <h2>favourite <span>Book </span></h2>
+                                    <h2>from <span>Here </span></h2>
+
+                                    <a class="shopbtn" href="#">shop now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Single Slide -->
+
+            <div>
+              
+            </div>
+
+
+
+
+
+     <!-- Start Search Popup -->
+ <div class="box-search-content search_active block-bg close__top">
+            <form id="search_mini_form" class="minisearch" action="#">
+                <div class="field__search">
+                    <input type="text" placeholder="Search entire store here...">
+                    <div class="action">
+                        <a href="#"><i class="zmdi zmdi-search"></i></a>
+                    </div>
+                </div>
+            </form>
+            <div class="close__wrap">
+                <span>close</span>
+            </div>
+        </div>
+        <!-- End Search Popup -->
+        <!-- Start Bradcaump area -->
+        <div class="ht__bradcaump__area bg-image--6">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="bradcaump__inner text-center">
+                            <h2 class="bradcaump-title">Blog Details</h2>
+                            <nav class="bradcaump-content">
+                              <a class="breadcrumb_item" href="index.html"></a>
+                              <span class="brd-separetor">/</span>
+                              <span class="breadcrumb_item active">Blog-Details</span>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Bradcaump area -->
